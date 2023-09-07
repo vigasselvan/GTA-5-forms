@@ -35,6 +35,10 @@ app.get('/lastPage', (req, res) =>{
     res.render('lastPage');
 });
 
+app.get('/success', (req, res) => {
+    res.render('success');
+});
+
 app.post('/lastPage', (req, res) => {
     
     const form = new Form({
@@ -50,7 +54,7 @@ app.post('/lastPage', (req, res) => {
         feedback: req.body.feedback
     });
 
-    const ste = form.save();
+    form.save();
 
     res.redirect('success');
 });
