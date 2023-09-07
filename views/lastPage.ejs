@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles.css">
+
+    <title>Last Ques.</title>
+</head>
+<body>
+    <!--Tittle-->
+    <div class="title_bar">
+        <img class="logo" src="images/log.png" alt="GTA 5" style="height: 75px; width: 90px;">
+    </div>
+
+    <!--Content-->
+    <div class="content_body2">
+        <div class="WholeForm2">
+            
+            <div class="left-side">
+                <p class="desc_ques2">Last few more questions...</p>
+            </div>
+            <div class="right-side">
+                <form action="/lastPage" method="POST">
+                    <h4 class="ques6">7. Your favourite cheat code ? </h4>
+                    <input type="text" name="favCode" class="ans1" required>
+                    <br>
+                    
+                    <h4 class="ques">8. Screetshot of your profile :</h4>
+                    <input type="file" id="flSel" name="scr_prfl">
+                    <br>
+
+                    <h4 class="ques">9. Within how many months did you complete GTA 4: </h4>
+                    <input type="number" name="compMonth" id="ans3">
+
+                    <h4 class="ques">10. your current lvl ?</h4>
+                    <input type="number" name="lvl" id="ans4" min="1" max="12" required>
+
+                    <h4 class="ques">11. Feedback about the GTA 5 ?</h4>
+                    <textarea class="feedback" rows="4" cols="50" name="feedback"> Enter here...</textarea>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="index.ejs"><button class="prvbtn"> Previous </button></a>
+                    <a><button class="nxtbtn" type="submit"> Submit </button></a>
+                    <br>
+                    <br>
+                    <br>
+                    <p hidden="until-found">This paragraph should be hidden.</p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

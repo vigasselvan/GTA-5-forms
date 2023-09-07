@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles.css">
+
+    <title>GTA 5 Questionnaire</title>
+
+</head>
+<body>
+    <!--Tittle-->
+    <div class="title_bar">
+        <img class="logo" src="/images/log.png" alt="GTA 5" style="height: 75px; width: 90px;">
+    </div>
+
+    <!--Content-->
+    <div class="content_body">
+        <div class="WholeForm">
+            
+            <div class="left-side">
+                <p class="desc_ques">Survey ot enhance GTA 5 gaming experience.</p>
+                <h3 class="Questionnaire">Questionnaire</h3>
+            </div>
+            <div class="right-side">
+                <h2 class="survey">SURVEY</h2>
+                <p class="desc-sur">we require you to answer this basic questions. This information helps us to enhance your GTA 5 gaming experience.</p>
+                
+                <hr style="opacity: 0.4;">
+                
+                    <h4 class="ques">1. What is your name? </h4>
+                    <input type="text" name="name" class="ans1" required>
+                    <br>
+                    
+                    <h4 class="ques">2. Select your Date Of Birth: </h4>
+                    <input type="date" name="dob" id="dateSel"> 
+                    <br>
+
+                    <h4 class="ques">3. Enter your Phone number: </h4>
+                    <input type="tel" name="phone" id="ans3" placeholder="9025-256-698" required>
+
+                    <h4 class="ques">4. How many years are you playing GTA ?</h4>
+                    <input type="number" name="exp" id="ans4" min="1" max="25" required>
+
+                    <h4 class="ques">5. How responsive is our game server?</h4>
+                    <input type="radio" name="rating" id="grt" name="res" value="Great">
+                    <label for="Great">Great</label><br>
+                    <input type="radio" id="avg" name="res" value="Average">
+                    <label for="Average">Average</label><br>
+                    <input type="radio" id="ngd" name="res" value="Not good">
+                    <label for="Not good">Not good</label>
+                    <br>
+
+                    <h4 class="ques">6. Your typical time for playing Game ?</h4>
+                    <select name="time" id="timeSel">
+                        <option value="allTime">All TIME🤙</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                        <option value="night" selected>Night</option>
+                      </select>
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="/lastPage"><button class="nxtbtn"> Next </button></a>
+                    
+                    <br>
+                    <br>
+                    <p hidden="until-found">This paragraph should be hidden.</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

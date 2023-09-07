@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.title_bar {
+    width: 100%;
+    height: 100px;
+    background-color: white ;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 15px;
+}
+.content_body {
+    height: 1500px;
+    width: 100%;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);   
+}
+.WholeForm {
+    height: 1240px;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border-radius: 15px;
+}
+.left-side {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: #3a44a1;
+    border-radius: 15px 0 0 15px;
+}
+.right-side {
+    float: right;
+    width: 66%;
+    background-color: #f8f8f8; 
+    border-radius: 0 15px 15px 0;
+}
+
+
+/* Left side contents */
+.Questionnaire {
+    font-size: 25px;
+    letter-spacing: 0.8px;
+    padding:10px 0 0 50px;
+    color: white;
+}
+.desc_ques {
+    padding: 90px 0 0 50px;
+    color: #f8f8f8;
+    opacity: 0.7; 
+}
+
+
+/* Right side contents */
+.survey {
+    padding: 85px 0 0 50px;
+    font-size: 27px;
+}
+.desc-sur {
+    padding: 30px 60px 20px 50px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    opacity: 0.6;
+}
+.ques {
+    padding: 20px 0 5px 50px;
+    margin-top: 30px;
+}
+.ans1 {
+    background-color: #f8f8f8;
+    margin: 0 0 10px 50px;
+    border-width: 0 0 2px 0;
+    padding: 5px 100px 5px 10px;
+}
+#dateSel {
+    background-color: #f8f8f8;
+    margin: 0 0 10px 50px;
+    border-width: 0 0 2px 0;
+    padding: 7px;
+}
+#ans3 {
+    background-color: #f8f8f8;
+    margin: 0 0 10px 50px;
+    border-width: 0 0 2px 0;
+    padding: 5px;
+}
+#grt, #avg, #ngd {
+    margin: 0 0 10px 50px;
+    padding: 15px;
+}
+#ans4 {
+    background-color: #f8f8f8;
+    margin: 0 0 10px 50px;
+    border-width: 0 0 2px 0;
+    padding: 4px;
+}
+#timeSel {
+    background-color: #f8f8f8;
+    margin: 0 0 10px 50px;
+    border-width: 0 0 2px 0;
+    padding: 5px;
+}
+.nxtbtn {
+    font-size: 16px;
+    color: #3a44a1;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #3a44a1;
+    padding: 7px 19px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 70px;
+    cursor: pointer;
+}
+.nxtbtn:hover {
+    background-color: #3a44a1;
+    color: #f8f8f8;
+    transition-duration: 1s;
+    padding: 7px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-transform: capitalize;
+}
+.prvbtn {
+    font-size: 16px;
+    color: #3a44a1;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: #3a44a1;
+    padding: 7px 19px;
+    margin-left: 10px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 70px;
+    cursor: pointer;
+}
+.prvbtn:hover {
+    background-color: #3a44a1;
+    color: #f8f8f8;
+    transition-duration: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-transform: capitalize;
+}
+
+/* New page */
+.content_body2 {
+    height: 1250px;
+    width: 100%;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);   
+}
+.WholeForm2 {
+    height: 930px;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border-radius: 15px;
+}
+.desc_ques2 {
+    font-size: 17px;
+    padding: 90px 0 0 50px;
+    color: #f8f8f8;
+    opacity: 0.7; 
+}
+.ques6 {
+    margin: 110px 0 10px 50px;
+}
+#flSel {
+    margin: 0 0 10px 50px;
+}
+.feedback {
+    margin: 0 0 10px 50px;
+    border-width: 0 0 2px 0;
+    background-color: #f8f8f8;
+}
+ 
+
+
